@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+- name: Add msbuild to PATH
+  uses: microsoft/setup-msbuild@v1.1
+  with:
+    vs-version: '[16.4,16.5)'adb shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
